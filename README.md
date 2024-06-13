@@ -72,7 +72,7 @@ The board operates at 3.3V and requires 5V for some devices. It may be powered t
 
 
 
-
+md"
 $$\begin{aligned}
 \begin{table}[h]
 \label{table}
@@ -99,3 +99,5 @@ $$\begin{aligned}
 \end{table}
 
 \end{aligned}$$
+"
+
