@@ -16,7 +16,7 @@ This telemetry system is equipped with various sensors and communicates with the
 
 
 ## What is telemetry?
-Telemetry is the measurement of data from a distant object or vehicle, and, in many cases, the transmission of those measurements to a ground-station or database. However, all the competitions (like MotoStudent :tm:, Moto Engineering Italy:tm:, etc.) prohibit the use of live telemetry data transmission, as is the case of the professional MotoGP. As stated on the official regulation documents of those competitions, the telemetry data obtained from the prototype must only be acquired during pit-stops. 
+Telemetry is the measurement of data from a distant object or vehicle, and, in many cases, the transmission of those measurements to a ground-station or database. However, all the competitions (like MotoStudent:tm:, Moto Engineering Italy:tm:, etc.) prohibit the use of live telemetry data transmission, as is the case of the professional MotoGP. As stated on the official regulation documents of those competitions, the telemetry data obtained from the prototype must only be acquired during pit-stops. 
 
 The telemetry acquisition is a very important sub-system of the prototype, as it allows the team to have an accurate description of its behaviour in tests and races, as well as to provide feedback and suggestions to the pilot. It also plays a big roll in understanding what could be altered on the current prototype or what could be improved on the next one.
 
@@ -185,3 +185,29 @@ All the collected parameters are organized and logged into the SD card, in a CSV
 
 
 ## Test Results
+
+
+<p float="left">
+  <img src="doc/Images/results/Velocity_position.png" width="100" />
+  <img src="doc/Images/results/Throttle_position.png" width="100" /> 
+</p>
+
+
+
+<p float="left">
+  <img src="doc/Images/results/Speed_Throttle.png" width="100" />
+  <img src="doc/Images/results/Motor_currents.png" width="100" /> 
+</p>
+
+
+
+<p float="left">
+  <img src="doc/Images/results/battery_voltage_w_points.png" width="100" />
+  <img src="doc/Images/results/cell-volt-KIRO.png" width="100" /> 
+</p>
+
+
+
+
+
+
