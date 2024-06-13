@@ -187,6 +187,25 @@ All the collected parameters are organized and logged into the SD card, in a CSV
 ## Test Results
 
 
+In this section are shown a few of the many graphs generated from the data acquired while testing the TLM03e in the KIRO (Kartódromo Internacional da Região Oeste) track in Bombarral. Although the telemetry system described in this document was made for TLM04e, this motorcycle is still in development. Thus, the tests were performed with the previous prototype, since this is a modular block compatible with the rest of the system. 
+
+
+
+Velocity along the track | Throttle position along the track
+--- | ---
+![](doc/Images/results/Velocity_position.png) | ![](doc/Images/results/Throttle_position.png) 
+
+
+
+
+Speed reaction to the throttle | Motor currents ($I_d$ and $I_q$)
+--- | ---
+![](doc/Images/results/Speed_Throttle.png) | ![](doc/Images/results/Motor_currents.png)
+
+
+--------------------------------
+
+
 <p float="left">
   <img src="doc/Images/results/Velocity_position.png" width="400" />
   <img src="doc/Images/results/Throttle_position.png" width="400" /> 
