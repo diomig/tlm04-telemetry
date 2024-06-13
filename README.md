@@ -73,31 +73,29 @@ The board operates at 3.3V and requires 5V for some devices. It may be powered t
 
 
 
-
-
-
-```{=latex}
-
-\begin{table}[tbp]
-\begin{center}
-\begin{threeparttable}
-\caption{Descriptive statistics included in the present study.}
-\begin{tabular}{ll}
-\toprule
-cyl & \multicolumn{1}{c}{Some columnname}\
-\midrule
-4.00 & 26.66 &plusmn; 4.51\
-6.00 & 19.74 &plusmn; 1.45\
-8.00 & 15.1 &plusmn; 2.56\
-\bottomrule
-\addlinespace
+$$\begin{aligned}
+\begin{table}[h]
+\label{table}
+\caption{CAN messages sent from the controller and from the BMS}
+\begin{tabular}{|
+>{\columncolor[HTML]{C0C0C0}}l |clclclcl|c}
+\cline{1-9}
+\multicolumn{1}{|c|}{\cellcolor[HTML]{9B9B9B}} & \multicolumn{8}{c|}{\cellcolor[HTML]{9B9B9B}Bytes} & \multicolumn{1}{l}{} \\ \cline{2-9}
+\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{9B9B9B}\begin{tabular}[c]{@{}c@{}}CAN\\  ID\end{tabular}}} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B1} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B2} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B3} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B4} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B5} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B6} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B7} & \cellcolor[HTML]{9B9B9B}B8 & \multicolumn{1}{l}{\multirow{-2}{*}{}} \\ \hline
+11 & \multicolumn{2}{c|}{Target $I_d$} & \multicolumn{2}{c|}{Target $I_q$} & \multicolumn{2}{c|}{$I_f$} & \multicolumn{2}{c|}{$I_q$} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
+12 & \multicolumn{2}{c|}{$U_d$} & \multicolumn{2}{c|}{$U_q$} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Motor \\ PWM\end{tabular}} & \multicolumn{2}{c|}{AC Volt.} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
+13 & \multicolumn{2}{c|}{AC Curr.} & \multicolumn{2}{c|}{Max $I_q$} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Motor \\ Temp.\end{tabular}} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Battery\\  Volt.\end{tabular}} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
+14 & \multicolumn{2}{c|}{Cap. Volt.} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Controller\\  Temp.\end{tabular}} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Battery\\  Curr.\end{tabular}} & \multicolumn{2}{c|}{Torque} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
+15 & \multicolumn{4}{c|}{RPM} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Throttle\\  Volt.\end{tabular}} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Throttle\\  Value\end{tabular}} & \multicolumn{1}{c|}{\multirow{-10}{*}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} \parbox[t]{2mm}{\multirow{5}{*}{\rotatebox[origin=c]{270}{\footnotesize{Controller}}}}}}} \\ \hline
+51 & \multicolumn{8}{c|}{Cell Voltages of Pack 1} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
+52 & \multicolumn{8}{c|}{Cell Voltages of Pack 2} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
+53 & \multicolumn{8}{c|}{Cell Voltages of Pack 3} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
+54 & \multicolumn{8}{c|}{Cell Voltages of Pack 4} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
+55 & \multicolumn{8}{c|}{Cell Voltages of Pack 5} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
+121 & \multicolumn{8}{c|}{Temperatures in Packs 1 and 2} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
+122 & \multicolumn{8}{c|}{Temperatures in Packs 3 and 4} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
+123 & \multicolumn{8}{c|}{Temperatures in Pack 5} & \multicolumn{1}{c|}{\multirow{-12}{*}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} \parbox[t]{2mm}{\multirow{5}{*}{\rotatebox[origin=c]{270}{\footnotesize{BMS}}}}}}} \\ \hline
 \end{tabular}
-\begin{tablenotes}[para]
-\textit{Note.} There were no signnificant differences in the means between the groups.
-\end{tablenotes}
-\end{threeparttable}
-\end{center}
 \end{table}
 
-```
-
+\end{aligned}$$
