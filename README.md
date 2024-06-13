@@ -198,16 +198,15 @@ Velocity along the track | Throttle position along the track
 
 
 
-Speed reaction to the throttle | Motor currents ($I_d$ and $I_q$)
+Speed reaction to the throttle | Motor currents (I_d and I_q)
 --- | ---
 ![](doc/Images/results/Speed_Throttle.png) | ![](doc/Images/results/Motor_currents.png)
 
 
---------------------------------
 
 Battery Voltage | Temperatures of the Motor and Controller
 --- | ---
-![](doc/Images/results/battery_voltage_w_points.png) | ![](doc/Images/results/temp_time.png) 
+![](doc/Images/results/battery-voltage-full.png) | ![](doc/Images/results/temp_time.png) 
 
 
 
