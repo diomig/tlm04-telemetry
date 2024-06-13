@@ -78,7 +78,7 @@ $$\begin{aligned}
 \label{table}
 \caption{CAN messages sent from the controller and from the BMS}
 \begin{tabular}{|
->{\columncolor[HTML]{C0C0C0}}l |clclclcl|c}
+{\columncolor[HTML]{C0C0C0}}l |clclclcl|c}
 \cline{1-9}
 \multicolumn{1}{|c|}{\cellcolor[HTML]{9B9B9B}} & \multicolumn{8}{c|}{\cellcolor[HTML]{9B9B9B}Bytes} & \multicolumn{1}{l}{} \\ \cline{2-9}
 \multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{9B9B9B}\begin{tabular}[c]{@{}c@{}}CAN\\  ID\end{tabular}}} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B1} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B2} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B3} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B4} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B5} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B6} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B7} & \cellcolor[HTML]{9B9B9B}B8 & \multicolumn{1}{l}{\multirow{-2}{*}{}} \\ \hline
