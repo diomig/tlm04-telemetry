@@ -205,31 +205,15 @@ Speed reaction to the throttle | Motor currents ($I_d$ and $I_q$)
 
 --------------------------------
 
-
-<p float="left">
-  <img src="doc/Images/results/Velocity_position.png" width="400" />
-  <img src="doc/Images/results/Throttle_position.png" width="400" /> 
-</p>
-
-
-
-<p float="left">
-  <img src="doc/Images/results/Speed_Throttle.png" width="400" />
-  <img src="doc/Images/results/Motor_currents.png" width="400" /> 
-</p>
-
-
-
-<p float="left">
-  <img src="doc/Images/results/battery_voltage_w_points.png" width="400" />
-  <img src="doc/Images/results/cell-volt-KIRO.jpg" width="400" /> 
-</p>
+Battery Voltage | Temperatures of the Motor and Controller
+--- | ---
+![](doc/Images/results/battery_voltage_w_points.png) | ![](doc/Images/results/temp_time.png) 
 
 
 
 
 <p float="left">
-  <img src="doc/Images/results/temp_time.png" width="700" />
+  <img src="" width="700" />
 </p>
 
 
