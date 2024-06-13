@@ -1,0 +1,53 @@
+Removed Pin From Net: NetName=Enable Pin=Bluetooth1-1
+Removed Pin From Net: NetName=State Pin=Bluetooth1-2
+Removed Pin From Net: NetName=B3_RX Pin=Bluetooth1-3
+Removed Pin From Net: NetName=B3_TX Pin=Bluetooth1-4
+Removed Pin From Net: NetName=GND Pin=Bluetooth1-5
+Removed Pin From Net: NetName=VIO Pin=C19-2
+Removed Pin From Net: NetName=GND Pin=C24-1
+Removed Pin From Net: NetName=VIO Pin=C24-2
+Removed Pin From Net: NetName=VIO Pin=C25-1
+Removed Pin From Net: NetName=GND Pin=C25-2
+Removed Pin From Net: NetName=GND Pin=IC3-12
+Removed Pin From Net: NetName=GND Pin=TVS1-2
+Removed Pin From Net: NetName=VCC Pin=TVS1-5
+Removed Member From Class: ClassName=MCU Member=C4
+Removed Member From Class: ClassName=MCU Member=C7
+Removed Member From Class: ClassName=MCU Member=IC1
+Removed Member From Class: ClassName=MCU Member=R1
+Added Component: Designator=Bluetooth(HDR1X6)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=C18(C 0805P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C21(C 0805P)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Enable Pin=Bluetooth-1
+Added Pin To Net: NetName=State Pin=Bluetooth-2
+Added Pin To Net: NetName=B3_RX Pin=Bluetooth-3
+Added Pin To Net: NetName=B3_TX Pin=Bluetooth-4
+Added Pin To Net: NetName=GND Pin=Bluetooth-5
+Added Pin To Net: NetName=VIO Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C18-1
+Added Pin To Net: NetName=VIO Pin=C18-2
+Added Pin To Net: NetName=VIO Pin=C21-1
+Added Pin To Net: NetName=GND Pin=C21-2
+Added Pin To Net: NetName=NetBluetooth_6 Pin=Bluetooth-6
+Added Pin To Net: NetName=NetBluetooth_6 Pin=F5-2
+Added Net: Name=NetBluetooth_6
+Added Pin To Net: NetName=NetC19_1 Pin=C19-1
+Added Pin To Net: NetName=NetC19_1 Pin=IC3-30
+Added Net: Name=NetC19_1
+Added Member To Class: ClassName=Componentes Member=Component Bluetooth Header 6
+Added Member To Class: ClassName=MCU Member=Component C18 885012207126
+Added Member To Class: ClassName=MCU Member=Component C18 10nF
+Added Member To Class: ClassName=MCU Member=Component C21 10nF
+Added Member To Class: ClassName=MCU Member=Component C21 885012207126
+Added Member To Class: ClassName=MCU Member=Component IC3 STM32F446RET7
+Added Member To Class: ClassName=MCU Member=Component R5 10K
+Added Room: Name=CAN
+Added Room: Name=Componentes
+Added Room: Name=MCU
+Added Room: Name=Supply

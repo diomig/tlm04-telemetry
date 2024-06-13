@@ -1,0 +1,54 @@
+Remove Pin=Bluetooth-1 From Net=Enable
+Remove Pin=Bluetooth-2 From Net=State
+Remove Pin=Bluetooth-3 From Net=B3_RX
+Remove Pin=Bluetooth-4 From Net=B3_TX
+Change Component Footprint: Designator=C9 Old Footprint=C 0805P New Footprint=C 0805
+Change Component Footprint: Designator=C14 Old Footprint=C 0805P New Footprint=C 0805
+Change Component Footprint: Designator=C16 Old Footprint=C 0805P New Footprint=C 0805
+Change Component Footprint: Designator=C19 Old Footprint=C 0805P New Footprint=C 0805
+Change Component Footprint: Designator=C12 Old Footprint=C 0805P New Footprint=C 1206
+Change Component Footprint: Designator=C13 Old Footprint=C 0805P New Footprint=C 1206
+Change Component Footprint: Designator=C15 Old Footprint=C 0805P New Footprint=C 1206
+Change Component Footprint: Designator=C20 Old Footprint=C 0805P New Footprint=C 1206
+Change Component Footprint: Designator=C22 Old Footprint=C 0805P New Footprint=C 1206
+Change Component Footprint: Designator=C23 Old Footprint=C 0805P New Footprint=C 1206
+Change Component Footprint: Designator=C17 Old Footprint=CAPC1608X90N New Footprint=C 1206
+Change Component Footprint: Designator=C4 Old Footprint=CAPC2012X135N New Footprint=CAPC1608X90N
+Change Component Footprint: Designator=C7 Old Footprint=CAPC2012X135N New Footprint=CAPC1608X90N
+Change Component Footprint: Designator=C10 Old Footprint=CAPC2012X135N New Footprint=CAPC1608X90N
+Change Component Footprint: Designator=C11 Old Footprint=CAPC2012X135N New Footprint=CAPC1608X90N
+Change Component Footprint: Designator=IC1 Old Footprint=QFP50P1200X1200X160-64N New Footprint=Pins 1.2mm
+Change Component Footprint: Designator=R1 Old Footprint=WRIS-KSKE_0805 New Footprint=R 0805
+Change Component Footprint: Designator=R2 Old Footprint=WRIS-KSKE_0805 New Footprint=R 0805
+Change Component Comment: Designator=C12 Old Comment=1uF New Comment=4.7uF
+Change Component Comment: Designator=C13 Old Comment=1uF New Comment=Cap
+Change Component Comment: Designator=C14 Old Comment=1uF New Comment=Cap
+Change Component Comment: Designator=C16 Old Comment=1uF New Comment=Cap
+Change Component Comment: Designator=C20 Old Comment=1uF New Comment=Cap
+Change Component Comment: Designator=C22 Old Comment=1uF New Comment=Cap
+Change Component Comment: Designator=C19 Old Comment=4.7uF New Comment=Cap
+Change Component Comment: Designator=C9 Old Comment=10nF New Comment=Cap
+Change Component Comment: Designator=C15 Old Comment=10nF New Comment=Cap
+Change Component Comment: Designator=C23 Old Comment=10nF New Comment=Cap
+Change Component Designator: OldDesignator=C4 NewDesignator=C18
+Change Component Designator: OldDesignator=C7 NewDesignator=C21
+Change Component Designator: OldDesignator=IC1 NewDesignator=IC3
+Change Component Designator: OldDesignator=R1 NewDesignator=R5
+Add Pin To Net: Pin=IC3-14 Old Net=GPS Rx New Net=GPS_RX
+Add Pin To Net: Pin=IC3-15 Old Net=GPS Tx New Net=GPS_TX
+Change Pin Designator/Name:  Old Designator=C12-2 Old Name= New Designator = New Name=1
+Change Pin Designator/Name:  Old Designator=C13-1 Old Name= New Designator = New Name=2
+Change Pin Designator/Name:  Old Designator=C13-2 Old Name= New Designator = New Name=1
+Change Pin Designator/Name:  Old Designator=C14-1 Old Name= New Designator = New Name=2
+Change Pin Designator/Name:  Old Designator=C14-2 Old Name= New Designator = New Name=1
+Change Pin Designator/Name:  Old Designator=C15-1 Old Name= New Designator = New Name=2
+Change Pin Designator/Name:  Old Designator=C15-2 Old Name= New Designator = New Name=1
+Change Pin Designator/Name:  Old Designator=C19-2 Old Name= New Designator = New Name=1
+Change Pin Designator/Name:  Old Designator=C20-1 Old Name= New Designator = New Name=2
+Change Pin Designator/Name:  Old Designator=C20-2 Old Name= New Designator = New Name=1
+Change Pin Designator/Name:  Old Designator=C22-1 Old Name= New Designator = New Name=2
+Change Pin Designator/Name:  Old Designator=C22-2 Old Name= New Designator = New Name=1
+Change Pin Designator/Name:  Old Designator=C23-1 Old Name= New Designator = New Name=2
+Change Pin Designator/Name:  Old Designator=C23-2 Old Name= New Designator = New Name=1
+Change Pin Designator/Name:  Old Designator=P3-7 Old Name=7 New Designator =9 New Name=9
+Change Pin Designator/Name:  Old Designator=P3-9 Old Name=9 New Designator =7 New Name=7

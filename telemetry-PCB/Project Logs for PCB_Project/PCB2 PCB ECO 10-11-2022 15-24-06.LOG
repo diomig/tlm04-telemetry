@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GND Pin=C10-1
+Removed Pin From Net: NetName=GND Pin=C11-1
+Removed Pin From Net: NetName=GND Pin=C18-1
+Removed Pin From Net: NetName=GND Pin=C21-1
+Removed Member From Class: ClassName=MCU (2) Member=C10
+Removed Member From Class: ClassName=MCU (2) Member=C11
+Removed Member From Class: ClassName=MCU (2) Member=C18
+Removed Member From Class: ClassName=MCU (2) Member=C21
+Removed Member From Class: ClassName=MCU (2) Member=Y1
+Removed Member From Class: ClassName=MCU (2) Member=Y2

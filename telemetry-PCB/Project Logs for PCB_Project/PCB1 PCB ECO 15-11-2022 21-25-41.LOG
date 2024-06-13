@@ -1,0 +1,142 @@
+Removed Pin From Net: NetName=Enable Pin=Bluetooth1-1
+Removed Pin From Net: NetName=State Pin=Bluetooth1-2
+Removed Pin From Net: NetName=B3_RX Pin=Bluetooth1-3
+Removed Pin From Net: NetName=B3_TX Pin=Bluetooth1-4
+Removed Pin From Net: NetName=GND Pin=Bluetooth1-5
+Removed Pin From Net: NetName=GND Pin=C12-1
+Removed Pin From Net: NetName=GND Pin=C13-1
+Removed Pin From Net: NetName=VIO Pin=C13-2
+Removed Pin From Net: NetName=GND Pin=C14-1
+Removed Pin From Net: NetName=VIO Pin=C14-2
+Removed Pin From Net: NetName=GND Pin=C15-1
+Removed Pin From Net: NetName=VIO Pin=C15-2
+Removed Pin From Net: NetName=GND Pin=C19-1
+Removed Pin From Net: NetName=VIO Pin=C19-2
+Removed Pin From Net: NetName=GND Pin=C20-1
+Removed Pin From Net: NetName=VIO Pin=C20-2
+Removed Pin From Net: NetName=GND Pin=C22-1
+Removed Pin From Net: NetName=VIO Pin=C22-2
+Removed Pin From Net: NetName=GND Pin=C23-1
+Removed Pin From Net: NetName=VIO Pin=C23-2
+Removed Pin From Net: NetName=GND Pin=C24-1
+Removed Pin From Net: NetName=VIO Pin=C24-2
+Removed Pin From Net: NetName=VIO Pin=C25-1
+Removed Pin From Net: NetName=GND Pin=C25-2
+Removed Pin From Net: NetName=GND Pin=IC3-12
+Removed Pin From Net: NetName=GPS_RX Pin=IC3-14
+Removed Pin From Net: NetName=GPS_TX Pin=IC3-15
+Removed Pin From Net: NetName=PB6 Pin=P3-7
+Removed Pin From Net: NetName=PC8 Pin=P3-9
+Removed Pin From Net: NetName=GND Pin=TVS1-2
+Removed Pin From Net: NetName=VCC Pin=TVS1-5
+Removed Member From Class: ClassName=Componentes Member=Bluetooth1
+Removed Member From Class: ClassName=MCU (2) Member=C24
+Removed Member From Class: ClassName=MCU (2) Member=C25
+Removed Member From Class: ClassName=Supply_ (1) Member=R9
+Removed Member From Class: ClassName=Supply_ (1) Member=R10
+Removed Member From Class: ClassName=Supply_ (1) Member=TVS1
+Change Component Footprint: Designator=C9 Old Footprint=C 0805 New Footprint=C 0805P
+Change Component Footprint: Designator=C14 Old Footprint=C 0805 New Footprint=C 0805P
+Change Component Footprint: Designator=C16 Old Footprint=C 0805 New Footprint=C 0805P
+Change Component Footprint: Designator=C19 Old Footprint=C 0805 New Footprint=C 0805P
+Change Component Footprint: Designator=C12 Old Footprint=C 1206 New Footprint=C 0805P
+Change Component Footprint: Designator=C13 Old Footprint=C 1206 New Footprint=C 0805P
+Change Component Footprint: Designator=C15 Old Footprint=C 1206 New Footprint=C 0805P
+Change Component Footprint: Designator=C20 Old Footprint=C 1206 New Footprint=C 0805P
+Change Component Footprint: Designator=C22 Old Footprint=C 1206 New Footprint=C 0805P
+Change Component Footprint: Designator=C23 Old Footprint=C 1206 New Footprint=C 0805P
+Change Component Footprint: Designator=C17 Old Footprint=C 1206 New Footprint=CAPC1608X90N
+Change Component Footprint: Designator=C10 Old Footprint=CAPC1608X90N New Footprint=CAPC2012X135N
+Change Component Footprint: Designator=C11 Old Footprint=CAPC1608X90N New Footprint=CAPC2012X135N
+Change Component Footprint: Designator=C18 Old Footprint=CAPC1608X90N New Footprint=CAPC2012X135N
+Change Component Footprint: Designator=C21 Old Footprint=CAPC1608X90N New Footprint=CAPC2012X135N
+Change Component Footprint: Designator=IC3 Old Footprint=Pins 1.2mm New Footprint=QFP50P1200X1200X160-64N
+Change Component Comment : Designator=C12 Old Comment=4.7uF New Comment=1uF
+Change Component Comment : Designator=C13 Old Comment=Cap New Comment=1uF
+Change Component Comment : Designator=C14 Old Comment=Cap New Comment=1uF
+Change Component Comment : Designator=C16 Old Comment=Cap New Comment=1uF
+Change Component Comment : Designator=C20 Old Comment=Cap New Comment=1uF
+Change Component Comment : Designator=C22 Old Comment=Cap New Comment=1uF
+Change Component Comment : Designator=C19 Old Comment=Cap New Comment=4.7uF
+Change Component Comment : Designator=C9 Old Comment=Cap New Comment=10nF
+Change Component Comment : Designator=C15 Old Comment=Cap New Comment=10nF
+Change Component Comment : Designator=C23 Old Comment=Cap New Comment=10nF
+Change Component Designator: OldDesignator=C18 NewDesignator=C4
+Change Component Designator: OldDesignator=C21 NewDesignator=C7
+Change Component Designator: OldDesignator=IC3 NewDesignator=IC1
+Change Component Designator: OldDesignator=R5 NewDesignator=R1
+Change component parameters: Designator = "C9"; Footprint = "C 0805P"; UniqueID = "\XPIFYDQV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "C13"; Footprint = "C 0805P"; UniqueID = "\SPPTJCRM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "C14"; Footprint = "C 0805P"; UniqueID = "\XIVHDTBF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "C15"; Footprint = "C 0805P"; UniqueID = "\FRQLOVBT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "C16"; Footprint = "C 0805P"; UniqueID = "\CLQQSLOX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "C19"; Footprint = "C 0805P"; UniqueID = "\DSDYXIIA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "C20"; Footprint = "C 0805P"; UniqueID = "\ZUPANBKU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "C22"; Footprint = "C 0805P"; UniqueID = "\DEYDOGHL"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "C23"; Footprint = "C 0805P"; UniqueID = "\IKTZKCNA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "C12"; Footprint = "C 0805P"; UniqueID = "\LMMJLKLL"
+Change component parameters. Clean all parameters for all variants
+Added Component: Designator=Bluetooth(HDR1X6)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=C18(C 0805P)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C21(C 0805P)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Enable Pin=Bluetooth-1
+Added Pin To Net: NetName=State Pin=Bluetooth-2
+Added Pin To Net: NetName=B3_RX Pin=Bluetooth-3
+Added Pin To Net: NetName=B3_TX Pin=Bluetooth-4
+Added Pin To Net: NetName=GND Pin=Bluetooth-5
+Added Pin To Net: NetName=VIO Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=VIO Pin=C13-1
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Pin To Net: NetName=VIO Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=VIO Pin=C15-1
+Added Pin To Net: NetName=GND Pin=C15-2
+Added Pin To Net: NetName=GND Pin=C18-1
+Added Pin To Net: NetName=VIO Pin=C18-2
+Added Pin To Net: NetName=GND Pin=C19-2
+Added Pin To Net: NetName=VIO Pin=C20-1
+Added Pin To Net: NetName=GND Pin=C20-2
+Added Pin To Net: NetName=VIO Pin=C21-1
+Added Pin To Net: NetName=GND Pin=C21-2
+Added Pin To Net: NetName=VIO Pin=C22-1
+Added Pin To Net: NetName=GND Pin=C22-2
+Added Pin To Net: NetName=VIO Pin=C23-1
+Added Pin To Net: NetName=GND Pin=C23-2
+Added Pin To Net: NetName=PC8 Pin=P3-7
+Added Pin To Net: NetName=PB6 Pin=P3-9
+Change Net Name : Old Net Name=NetIC3_60 New Net Name=NetIC1_60
+Added Pin To Net: NetName=GPS Rx Pin=IC1-14
+Added Net: Name=GPS Rx
+Added Pin To Net: NetName=GPS Tx Pin=IC1-15
+Added Net: Name=GPS Tx
+Added Pin To Net: NetName=NetBluetooth_6 Pin=Bluetooth-6
+Added Pin To Net: NetName=NetBluetooth_6 Pin=F5-2
+Added Net: Name=NetBluetooth_6
+Added Pin To Net: NetName=NetC19_1 Pin=C19-1
+Added Pin To Net: NetName=NetC19_1 Pin=IC1-30
+Added Net: Name=NetC19_1
+Change Class Name : Old Net Name=MCU (2) New Net Name=MCU
+Change Class Name : Old Net Name=Supply_ (1) New Net Name=Supply
+Added Member To Class: ClassName=Componentes Member=Component Bluetooth Header 6
+Added Member To Class: ClassName=MCU Member=Component C18 10nF
+Added Member To Class: ClassName=MCU Member=Component C21 10nF
+Added Room: Name=CAN
+Added Room: Name=Componentes
+Added Room: Name=MCU
+Added Room: Name=Supply

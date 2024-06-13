@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=PB6 Pin=P3-7
+Removed Pin From Net: NetName=PC8 Pin=P3-9
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C19-1
+Added Pin To Net: NetName=PC8 Pin=P3-7
+Added Pin To Net: NetName=PB6 Pin=P3-9
+Added Member To Class: ClassName=MCU Member=Component C18 885012207126
+Added Member To Class: ClassName=MCU Member=Component C21 10nF

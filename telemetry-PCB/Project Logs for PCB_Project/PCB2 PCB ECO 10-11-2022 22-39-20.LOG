@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=USB1_N Pin=TVS1-1
+Removed Pin From Net: NetName=GND Pin=TVS1-2
+Removed Pin From Net: NetName=USB1_P Pin=TVS1-3
+Removed Pin From Net: NetName=VCC Pin=TVS1-5
+Removed Member From Class: ClassName=Supply_ (1) Member=R9
+Removed Member From Class: ClassName=Supply_ (1) Member=R10
+Removed Member From Class: ClassName=Supply_ (1) Member=TVS1

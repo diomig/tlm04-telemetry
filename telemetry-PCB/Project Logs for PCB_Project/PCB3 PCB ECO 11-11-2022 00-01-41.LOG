@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=VIO Pin=IC1-6
+Removed Pin From Net: NetName=VCC Pin=IC1-8
+Removed Pin From Net: NetName=GND Pin=IC1-10
+Removed Pin From Net: NetName=CANGND Pin=IC1-11
+Removed Pin From Net: NetName=VISOOUT Pin=IC1-12
+Removed Pin From Net: NetName=CANGND Pin=IC1-16
+Removed Pin From Net: NetName=CAN_P Pin=IC1-17
+Removed Pin From Net: NetName=VISOIN Pin=IC1-19
+Removed Pin From Net: NetName=NetIC1_60 Pin=R1-1
+Added Pin To Net: NetName=GND Pin=IC1-1
+Added Pin To Net: NetName=GND Pin=IC1-3
+Added Pin To Net: NetName=CAN Rx Pin=IC1-4
+Added Pin To Net: NetName=CAN Tx Pin=IC1-5
+Added Pin To Net: NetName=HSE OUT Pin=IC1-6
+Added Pin To Net: NetName=VIO Pin=IC1-6
+Added Pin To Net: NetName=GND Pin=IC1-7
+Added Pin To Net: NetName=VCC Pin=IC1-8
+Added Pin To Net: NetName=GND Pin=IC1-9
+Added Pin To Net: NetName=GND Pin=IC1-10
+Added Pin To Net: NetName=CANGND Pin=IC1-11
+Added Pin To Net: NetName=GND Pin=IC1-12
+Added Pin To Net: NetName=VISOOUT Pin=IC1-12
+Added Pin To Net: NetName=CANGND Pin=IC1-13
+Added Pin To Net: NetName=CAN_N Pin=IC1-15
+Added Pin To Net: NetName=CANGND Pin=IC1-16
+Added Pin To Net: NetName=CAN_P Pin=IC1-17
+Added Pin To Net: NetName=CANGND Pin=IC1-18
+Added Pin To Net: NetName=VIO Pin=IC1-19
+Added Pin To Net: NetName=VISOIN Pin=IC1-19
+Added Pin To Net: NetName=CANGND Pin=IC1-20
+Added Pin To Net: NetName=CAN_N Pin=R1-1
+Added Pin To Net: NetName=NetIC1_60 Pin=R1-1
+Added Pin To Net: NetName=BOOT SEL Pin=R1-2
+Change Class Name : Old Net Name=Supply_ (1) New Net Name=Supply
+Change Room Name: Old Name=Supply_ (1) New Name=Supply
+Change Room Scope: Old Scope=InComponentClass('Supply_ (1)') New Scope=InComponentClass('Supply')
