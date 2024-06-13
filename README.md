@@ -71,33 +71,18 @@ The board operates at 3.3V and requires 5V for some devices. It may be powered t
 
 
 
-
-md"
-$$\begin{aligned}
-\begin{table}[h]
-\label{table}
-\caption{CAN messages sent from the controller and from the BMS}
-\begin{tabular}{|
-{\columncolor[HTML]{C0C0C0}}l |clclclcl|c}
-\cline{1-9}
-\multicolumn{1}{|c|}{\cellcolor[HTML]{9B9B9B}} & \multicolumn{8}{c|}{\cellcolor[HTML]{9B9B9B}Bytes} & \multicolumn{1}{l}{} \\ \cline{2-9}
-\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{9B9B9B}\begin{tabular}[c]{@{}c@{}}CAN\\  ID\end{tabular}}} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B1} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B2} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B3} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B4} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B5} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B6} & \multicolumn{1}{l|}{\cellcolor[HTML]{9B9B9B}B7} & \cellcolor[HTML]{9B9B9B}B8 & \multicolumn{1}{l}{\multirow{-2}{*}{}} \\ \hline
-11 & \multicolumn{2}{c|}{Target $I_d$} & \multicolumn{2}{c|}{Target $I_q$} & \multicolumn{2}{c|}{$I_f$} & \multicolumn{2}{c|}{$I_q$} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
-12 & \multicolumn{2}{c|}{$U_d$} & \multicolumn{2}{c|}{$U_q$} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Motor \\ PWM\end{tabular}} & \multicolumn{2}{c|}{AC Volt.} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
-13 & \multicolumn{2}{c|}{AC Curr.} & \multicolumn{2}{c|}{Max $I_q$} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Motor \\ Temp.\end{tabular}} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Battery\\  Volt.\end{tabular}} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
-14 & \multicolumn{2}{c|}{Cap. Volt.} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Controller\\  Temp.\end{tabular}} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Battery\\  Curr.\end{tabular}} & \multicolumn{2}{c|}{Torque} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
-15 & \multicolumn{4}{c|}{RPM} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Throttle\\  Volt.\end{tabular}} & \multicolumn{2}{c|}{\begin{tabular}[c]{@{}c@{}}Throttle\\  Value\end{tabular}} & \multicolumn{1}{c|}{\multirow{-10}{*}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} \parbox[t]{2mm}{\multirow{5}{*}{\rotatebox[origin=c]{270}{\footnotesize{Controller}}}}}}} \\ \hline
-51 & \multicolumn{8}{c|}{Cell Voltages of Pack 1} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
-52 & \multicolumn{8}{c|}{Cell Voltages of Pack 2} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
-53 & \multicolumn{8}{c|}{Cell Voltages of Pack 3} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
-54 & \multicolumn{8}{c|}{Cell Voltages of Pack 4} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
-55 & \multicolumn{8}{c|}{Cell Voltages of Pack 5} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
-121 & \multicolumn{8}{c|}{Temperatures in Packs 1 and 2} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
-122 & \multicolumn{8}{c|}{Temperatures in Packs 3 and 4} & \multicolumn{1}{c|}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} }} \\ \cline{1-9}
-123 & \multicolumn{8}{c|}{Temperatures in Pack 5} & \multicolumn{1}{c|}{\multirow{-12}{*}{\cellcolor[HTML]{656565}{\color[HTML]{FFFFFF} \parbox[t]{2mm}{\multirow{5}{*}{\rotatebox[origin=c]{270}{\footnotesize{BMS}}}}}}} \\ \hline
-\end{tabular}
-\end{table}
-
-\end{aligned}$$
-"
-
+| CAN ID | B1       | B2       | B3       | B4       | B5       | B6          | B7           | B8          |
+|--------|----------|----------|----------|----------|----------|-------------|--------------|-------------|
+| 11     | Target $I_d$ | Target $I_q$ | $I_f$     | $I_q$     |             |              |              |             |
+| 12     | $U_d$    | $U_q$    | Motor PWM | AC Volt. |          |             |              |             |
+| 13     | AC Curr. | Max $I_q$ | Motor Temp. | Battery Volt. | | | | |
+| 14     | Cap. Volt. | Controller Temp. | Battery Curr. | Torque  |             |              |              |             |
+| 15     | RPM      | Throttle Volt. | Throttle Value | | | | | |
+| 51     | Cell Voltages of Pack 1 | | | | | | | |
+| 52     | Cell Voltages of Pack 2 | | | | | | | |
+| 53     | Cell Voltages of Pack 3 | | | | | | | |
+| 54     | Cell Voltages of Pack 4 | | | | | | | |
+| 55     | Cell Voltages of Pack 5 | | | | | | | |
+| 121    | Temperatures in Packs 1 and 2 | | | | | | | |
+| 122    | Temperatures in Packs 3 and 4 | | | | | | | |
+| 123    | Temperatures in Pack 5 | | | | | | | |
