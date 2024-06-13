@@ -69,20 +69,89 @@ The board operates at 3.3V and requires 5V for some devices. It may be powered t
 
 
 
-
-
-| CAN ID | B1       | B2       | B3       | B4       | B5       | B6          | B7           | B8          |
-|--------|----------|----------|----------|----------|----------|-------------|--------------|-------------|
-| 11     | Target $I_d$ | Target $I_q$ | $I_f$     | $I_q$     |             |              |              |             |
-| 12     | $U_d$    | $U_q$    | Motor PWM | AC Volt. |          |             |              |             |
-| 13     | AC Curr. | Max $I_q$ | Motor Temp. | Battery Volt. | | | | |
-| 14     | Cap. Volt. | Controller Temp. | Battery Curr. | Torque  |             |              |              |             |
-| 15     | RPM      | Throttle Volt. | Throttle Value | | | | | |
-| 51     | Cell Voltages of Pack 1 | | | | | | | |
-| 52     | Cell Voltages of Pack 2 | | | | | | | |
-| 53     | Cell Voltages of Pack 3 | | | | | | | |
-| 54     | Cell Voltages of Pack 4 | | | | | | | |
-| 55     | Cell Voltages of Pack 5 | | | | | | | |
-| 121    | Temperatures in Packs 1 and 2 | | | | | | | |
-| 122    | Temperatures in Packs 3 and 4 | | | | | | | |
-| 123    | Temperatures in Pack 5 | | | | | | | |
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">CAN ID</th>
+      <th colspan="8">Bytes</th>
+    </tr>
+    <tr>
+      <th>B1</th>
+      <th>B2</th>
+      <th>B3</th>
+      <th>B4</th>
+      <th>B5</th>
+      <th>B6</th>
+      <th>B7</th>
+      <th>B8</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>11</td>
+      <td colspan="2">Target $I_d$</td>
+      <td colspan="2">Target $I_q$</td>
+      <td colspan="2">$I_f$</td>
+      <td colspan="2">$I_q$</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td colspan="2">$U_d$</td>
+      <td colspan="2">$U_q$</td>
+      <td colspan="2">Motor PWM</td>
+      <td colspan="2">AC Volt.</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td colspan="2">AC Curr.</td>
+      <td colspan="2">Max $I_q$</td>
+      <td colspan="2">Motor Temp.</td>
+      <td colspan="2">Battery Volt.</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td colspan="2">Cap. Volt.</td>
+      <td colspan="2">Controller Temp.</td>
+      <td colspan="2">Battery Curr.</td>
+      <td colspan="2">Torque</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td colspan="4">RPM</td>
+      <td colspan="2">Throttle Volt.</td>
+      <td colspan="2">Throttle Value</td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td colspan="8">Cell Voltages of Pack 1</td>
+    </tr>
+    <tr>
+      <td>52</td>
+      <td colspan="8">Cell Voltages of Pack 2</td>
+    </tr>
+    <tr>
+      <td>53</td>
+      <td colspan="8">Cell Voltages of Pack 3</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td colspan="8">Cell Voltages of Pack 4</td>
+    </tr>
+    <tr>
+      <td>55</td>
+      <td colspan="8">Cell Voltages of Pack 5</td>
+    </tr>
+    <tr>
+      <td>121</td>
+      <td colspan="8">Temperatures in Packs 1 and 2</td>
+    </tr>
+    <tr>
+      <td>122</td>
+      <td colspan="8">Temperatures in Packs 3 and 4</td>
+    </tr>
+    <tr>
+      <td>123</td>
+      <td colspan="8">Temperatures in Pack 5</td>
+    </tr>
+  </tbody>
+</table>
