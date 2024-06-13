@@ -54,7 +54,7 @@ where $r_{wheel}$ is the outer radius of the tire and $R_G$ is the gear ratio us
 
 <p allign="center">
     <img title="Link between the motor shaft and the wheel sprocket" src="doc/Images/rpm.jpg" width="500">
-</p</p>>
+</p>
 
 ## PCB
 <img title="PCB" src="doc/Images/PCB.png" width="800"/>
