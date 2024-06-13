@@ -52,7 +52,7 @@ $$ v[km/h] = \frac{rpm\times2\pi\times r_{wheel}}{60}\times R_G\times \frac{3600
 
 where $r_{wheel}$ is the outer radius of the tire and $R_G$ is the gear ratio used for this conversion.
 
-<p allign="center">
+<p align="center">
     <img title="Link between the motor shaft and the wheel sprocket" src="doc/Images/rpm.jpg" width="500">
 </p>
 
