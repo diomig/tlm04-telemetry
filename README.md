@@ -57,6 +57,13 @@ where $r_{wheel}$ is the outer radius of the tire and $R_G$ is the gear ratio us
 </p>
 
 ## PCB
+The schematic and layout were made in Altium Designer, the board was manufactured at JLCPCB and it was soldered at TLMoto's workshop in IST. The figure represents only the top layer of the PCB, so some connections are not visible because they are in the bottom layer.
+
+This board includes all sensors and components described above, all commanded by a STM32 microcontroller at the very center. The microcontroller is responsible for collecting, buffering and periodically loading the data to the SD card. It also includes a CAN transceiver and dual Ethernet port for the CAN bus and also for power.
+
+The board operates at 3.3V and requires 5V for some devices. It may be powered through a mini-USB, while programming and debugging, but during its normal operation, it is supplied by the bus that connects the whole Low Voltage System of the motorcycle.
+
+
 <img title="PCB" src="doc/Images/PCB.png" width="800"/>
 
 
