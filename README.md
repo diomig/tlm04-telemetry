@@ -67,7 +67,10 @@ The board operates at 3.3V and requires 5V for some devices. It may be powered t
 <img title="PCB" src="doc/Images/PCB.png" width="800"/>
 
 
+### Data Handling and Integration with other subsystems
 
+The GPS module sends the time, coordinates and speed via UART in the format of NMEA strings. 
+The CAN messages are arranged according to this table. 
 
 <table>
   <thead>
@@ -155,3 +158,12 @@ The board operates at 3.3V and requires 5V for some devices. It may be powered t
     </tr>
   </tbody>
 </table>
+
+
+All the collected parameters are organized and logged into the SD card, in a CSV file (comma-separated values). This file is then loaded to a computer, which will process the data and generate the desired graphs. 
+
+ 
+
+
+
+
