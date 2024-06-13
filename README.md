@@ -50,6 +50,10 @@ It is noteworthy to mention that our prototype does not have a gearbox, much lik
 
 $$ v[km/h] = \frac{rpm\times2\pi\times r_{wheel}}{60}\times R_G\times \frac{3600}{1000}     $$
 
+where $r_{wheel}$ is the outer radius of the tire and $R_G$ is the gear ratio used for this conversion.
+
+![Link between the motor shaft and the wheel sprocket](doc/Images/rpm.jpg)
+
 
 ## PCB
 <img title="PCB" src="doc/Images/PCB.png" width="800"/>
