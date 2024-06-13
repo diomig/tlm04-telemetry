@@ -188,23 +188,42 @@ All the collected parameters are organized and logged into the SD card, in a CSV
 
 
 <p float="left">
-  <img src="doc/Images/results/Velocity_position.png" width="100" />
-  <img src="doc/Images/results/Throttle_position.png" width="100" /> 
+  <img src="doc/Images/results/Velocity_position.png" width="400" />
+  <img src="doc/Images/results/Throttle_position.png" width="400" /> 
 </p>
 
 
 
 <p float="left">
-  <img src="doc/Images/results/Speed_Throttle.png" width="100" />
-  <img src="doc/Images/results/Motor_currents.png" width="100" /> 
+  <img src="doc/Images/results/Speed_Throttle.png" width="400" />
+  <img src="doc/Images/results/Motor_currents.png" width="400" /> 
 </p>
 
 
 
 <p float="left">
-  <img src="doc/Images/results/battery_voltage_w_points.png" width="100" />
-  <img src="doc/Images/results/cell-volt-KIRO.png" width="100" /> 
+  <img src="doc/Images/results/battery_voltage_w_points.png" width="400" />
+  <img src="doc/Images/results/cell-volt-KIRO.jpg" width="400" /> 
 </p>
+
+
+
+
+<p float="left">
+  <img src="doc/Images/results/temp_time.png" width="700" />
+</p>
+
+
+
+
+<p float="left">
+  <img src="doc/Images/results/temp_track.png" width="700" />
+</p>
+
+
+
+
+
 
 
 
