@@ -12,10 +12,17 @@ This telemetry system is equipped with various sensors and communicates with the
 <img title="TLM03e" alt="TLM03e prototype" src="doc/Images/tlm03e.png" width="800"/>
 
 
+
+
+
 ## What is telemetry?
 Telemetry is the measurement of data from a distant object or vehicle, and, in many cases, the transmission of those measurements to a ground-station or database. However, all the competitions (like MotoStudent :tm:, Moto Engineering Italy:tm:, etc.) prohibit the use of live telemetry data transmission, as is the case of the professional MotoGP. As stated on the official regulation documents of those competitions, the telemetry data obtained from the prototype must only be acquired during pit-stops. 
 
 The telemetry acquisition is a very important sub-system of the prototype, as it allows the team to have an accurate description of its behaviour in tests and races, as well as to provide feedback and suggestions to the pilot. It also plays a big roll in understanding what could be altered on the current prototype or what could be improved on the next one.
+
+
+
+
 
 
 
@@ -25,6 +32,9 @@ This system is intended to measure, manage, store and finally transmit all the a
 The most important items to quantify are: velocity, accelerations, RPM, suspension travel, temperatures of the motor and controller, temperatures of the battery packs, voltages of the battery packs, current from the battery, accelerator and brakes inputs and position over time so the parameters can be analysed along the track. Some other values that are obtained are, for example: phasor components of the motor current ($I_d$, $I_q$), torque, handlebar steering angle, roll and pitch angles, among others. 
 
 As per the data logging and retrieving, all the acquired values are stored during the laps in an SD card, that can be conveniently removed and plugged in to a computer. Alternatively to the removal of the SD card, the content of the telemetry may be transmitted to the computer via Bluetooth, using the Bluetooth 5.0 module included in the system's last iteration. This is done as such because, as mentioned earlier, distant communication is not allowed by the regulation and the retrieving of the data must be done only within the premises of the box.
+
+
+
 
 
 
@@ -56,6 +66,11 @@ where $r_{wheel}$ is the outer radius of the tire and $R_G$ is the gear ratio us
     <img title="Link between the motor shaft and the wheel sprocket" src="doc/Images/rpm.jpg" width="500">
 </p>
 
+
+
+
+
+
 ## PCB
 The schematic and layout were made in Altium Designer, the board was manufactured at JLCPCB and it was soldered at TLMoto's workshop in IST. The figure represents only the top layer of the PCB, so some connections are not visible because they are in the bottom layer.
 
@@ -67,7 +82,10 @@ The board operates at 3.3V and requires 5V for some devices. It may be powered t
 <img title="PCB" src="doc/Images/PCB.png" width="800"/>
 
 
-### Data Handling and Integration with other subsystems
+
+
+
+## Data Handling and Integration with other subsystems
 
 The GPS module sends the time, coordinates and speed via UART in the format of NMEA strings. 
 The CAN messages are arranged according to this table. 
@@ -166,4 +184,4 @@ All the collected parameters are organized and logged into the SD card, in a CSV
 
 
 
-
+## Test Results
