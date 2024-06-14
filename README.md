@@ -206,12 +206,12 @@ Speed reaction to the throttle | Motor currents (I_d and I_q)
 
 Battery Voltage | Temperatures of the Motor and Controller
 --- | ---
-<img src="doc/Images/results/battery-voltage-full.png" heigth="200"/> | <img src="doc/Images/results/temp_time.png" heigth="200" /> 
+<img src="doc/Images/results/battery-voltage-full.png" heigth="200"/> | <img src="doc/Images/results/temperature_time.png" heigth="200" /> 
 
 
 
-
-
+Motor temperature along the track
+---
 <p float="left">
   <img src="doc/Images/results/temp_track.png" width="900" />
 </p>
