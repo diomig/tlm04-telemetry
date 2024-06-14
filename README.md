@@ -210,8 +210,7 @@ Battery Voltage | Temperatures of the Motor and Controller
 
 
 
-Motor temperature along the track
----
+### Motor temperature along the track
 <p float="left">
   <img src="doc/Images/results/temp_track.png" width="900" />
 </p>
